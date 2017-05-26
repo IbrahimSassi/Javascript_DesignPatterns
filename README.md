@@ -5,42 +5,42 @@
 > Used to create new objects, adapting creation to the situation
 
 
-#### ⋅⋅* Constructor Pattern
+* Constructor Pattern
 > Use to create new objects with their own object scope
 
-#### ⋅⋅* Module Pattern
+* Module Pattern
 > Simple way to encapsulate methods
 
-#### ⋅⋅* Factory Pattern
+* Factory Pattern
 > Used to simplify object creation
 
-#### ⋅⋅* Singleton Pattern
+* Singleton Pattern
 > Used to restrict an object to one instance of that object across the application
 
 
 ## 2. Structural Design patterns
 > Concerned with how objects are made up and simplify relationships between objects
 
-#### ⋅⋅* Decorator Pattern
+* Decorator Pattern
 > Used to add new functionality to an existing object, without being obtrusive
 
-#### ⋅⋅* Facade Pattern
+* Facade Pattern
 > Used to provide a simplified interface to a complicated system
 
-#### ⋅⋅* Flyweight Pattern
+* Flyweight Pattern
 > Conserves memory by sharing portions of an object between objects
 
 
 ## 3. Behavioral Design patterns
 > Concerned with the assignment of responsibilities between objects and how they communicate
 
-#### ⋅⋅* Observer Pattern
+* Observer Pattern
 > Allows a collection of objects to watch an object and be notified of changes
 
-#### ⋅⋅* Mediator Pattern
+* Mediator Pattern
 > Controls communication between objects so neither object has to be coupled to the others
 
-#### ⋅⋅* Command Pattern
+* Command Pattern
 > Encapsulates the calling of a method as an object
 
 
