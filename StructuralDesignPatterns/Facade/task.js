@@ -28,11 +28,11 @@ var TaskService = function () {
 var TaskServiceWrapper = function () {
 
     var completeAndNotify = function (task) {
-        TaskService.complete(myTask);
-        if (myTask.completed == true) {
-            TaskService.setCompleteDate(myTask);
-            TaskService.notifyCompletion(myTask, myTask.user);
-            TaskService.save(myTask);
+        TaskService.complete(task);
+        if (task.completed == true) {
+            TaskService.setCompleteDate(task);
+            TaskService.notifyCompletion(task, task.user);
+            TaskService.save(task);
         }
     }
     return {
